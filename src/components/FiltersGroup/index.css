@@ -1,0 +1,59 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.list1 {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.img {
+  width: 100px;
+}
+.item {
+  cursor: pointer;
+}
+.list-item {
+  border-width: 0px;
+  background-color: transparent;
+  pad: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  cursor: pointer;
+}
+.button {
+  padding: 5px;
+  width: 100px;
+  color: blue;
+  border-color: blue;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.head {
+  font-weight: bold;
+}
+
+.input {
+  width: 150px;
+}
+
+.filter-item {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
